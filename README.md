@@ -21,12 +21,12 @@ Usage
 
 ```html
 $(function(){
-    $(document).countLite({
-	views: 5, // max views
-	maxViews: function(data){
-		// do something
-   	 }
-    });
+	$(document).countLite({
+		views: 5, // max views
+		maxViews: function(data){
+			// do something
+   	 	}
+    	});
 });
 ```
 
@@ -34,22 +34,22 @@ $(function(){
 
 ```html
 $(function(){
-    $('#counter-message').countLite({
-    	views: 5, // max views
-	days: 30, // cookie day length
-    	maxViews: function(data){
-    		// do something
-    	},
-    	callBack: function(data){
-		if( data.count == 1 ){
-			// first page view
-		} else if( data.remaining == 1 ){
-			// last view before maxViews is called
-    		} else {
-			// steps between first and last
+	$('#counter-message').countLite({
+    		views: 5, // max views
+		days: 30, // cookie day length
+    		maxViews: function(data){
+    			// do something
+    		},
+    		callBack: function(data){
+			if( data.count == 1 ){
+				// first page view
+			} else if( data.remaining == 1 ){
+				// last view before maxViews is called
+    			} else {
+				// steps between first and last
+    			}
     		}
-    	}
-    });
+    	});
 });
 ```
 
