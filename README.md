@@ -1,7 +1,7 @@
 [CountLite](http://mediaflydesign.com/plugins/countLite/)
 ======================================================
 
-Is a small jQuery plugin for calling actions based on client side page views.
+Is a small jQuery plugin for triggering events based on client side page views.
 
 ### Features:
 * Lightweight (5k)
