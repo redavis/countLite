@@ -1,5 +1,5 @@
-CountLite
-=========
+[CountLite](http://mediaflydesign.com/plugins/countLite/)
+======================================================
 
 Is a small jQuery plugin for calling actions based on client side page views.
 
@@ -19,6 +19,7 @@ Usage
 
 ### Basic
 
+```html
 $(function(){
     $(document).countLite({
     	views: 5, // max views
@@ -27,9 +28,11 @@ $(function(){
    	 }
     });
 });
+```
 
 ### Advanced
 
+```html
 $(function(){
     $('#counter-message').countLite({
     	views: 5, // max views
@@ -48,4 +51,10 @@ $(function(){
     	}
     });
 });
+```
 
+For more information on how to setup, [check the examples](http://mediaflydesign.com/plugins/countLite/).
+
+## License
+Copyright (c) 2013 Ryan Davis
+License: MIT or GPL
