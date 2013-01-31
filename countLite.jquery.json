@@ -1,0 +1,32 @@
+{
+  "name": "countLite",
+  "title": "countLite",
+  "description": "jQuery plugin plugin for triggering events based on client side page views.",
+  "keywords": [
+    "counter"
+  ],
+  "version": "1.0.1",
+  "author": {
+    "name": "Ryan Davis",
+    "url": "http://mediaflydesign.com/plugins/countLite/"
+  },
+  "maintainers": [
+    {
+      "name": "Ryan Davis",
+      "email": "ryan@mediaflydesign.com",
+      "url": "http://mediaflydesign.com/"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "bugs": "https://github.com/redavis/countLite/issues",
+  "homepage": "https://github.com/redavis/countLite",
+  "docs": "http://mediaflydesign.com/plugins/countLite/",
+  "dependencies": {
+    "jquery": ">=1.5"
+  }
+}
