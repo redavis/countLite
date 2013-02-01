@@ -1,7 +1,7 @@
 {
   "name": "countLite",
   "title": "countLite",
-  "description": "jQuery plugin plugin for triggering events based on client side page views.",
+  "description": "jQuery plugin for triggering events based on client side page views.",
   "keywords": [
     "counter"
   ],
